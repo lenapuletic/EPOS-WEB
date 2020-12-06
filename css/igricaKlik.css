@@ -7,45 +7,7 @@
     align-items: center;
     height: 100vh;
 }
-.meni{
-    margin-left: 15%;
-    margin-right: 15%;
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-    font-size: 29px;
-    color: white;
-    font-weight: bold;
-}
 
-.meni a{
-    color: white;
-    text-decoration: none;
-}
-
-.meni a:hover{
-    color: rgb(255, 152, 152);
-    transition: .3s;
-}
-
-@media only screen and (max-width: 1200px) {
-    .meni{
-        font-size: 23px;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-  }
-
-@media only screen and (max-width: 700px) {
-.meni{
-    margin-top: 10%;
-    font-size: 25px;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    display: none;
-}
-}
 button {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
